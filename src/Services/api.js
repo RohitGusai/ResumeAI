@@ -19,7 +19,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://3.110.171.125/api",
+    baseURL: "https://3-108-65-63.nip.io/api",
     headers: {
         "Content-Type": "multipart/form-data",
     },
